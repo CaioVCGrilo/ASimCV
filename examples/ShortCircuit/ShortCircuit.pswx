@@ -1,0 +1,32 @@
+<workspace name="ShortCircuit" version="5.0.2" crc="38184911">
+  <projects>
+    <project type="project" name="Example_01" filepath=".\Example_01.pscx" />
+  </projects>
+  <simulations>
+    <simulation name="default" dependson="None" classid="SimulationSet" id="945143056">
+      <paramlist name="Default" />
+      <task namespace="Example_01" classid="SimulationTask" id="1717529227" order="0" pmr="false" volley="1" ammunition="1" rank_snap="false" clean="false">
+        <paramlist name="Options">
+          <param name="simulationset" value="" />
+          <param name="namespace" value="Example_01" />
+          <param name="name" value="" />
+          <param name="ammunition" value="1" />
+          <param name="volley" value="1" />
+          <param name="affinity_type" value="1" />
+          <param name="affinity" value="1" />
+          <param name="rank_snap" value="false" />
+          <param name="substitutions" value="" />
+          <param name="clean" value="false" />
+        </paramlist>
+      </task>
+    </simulation>
+  </simulations>
+  <pmr />
+  <messagegrid expanded="">
+    <column name="Icon" />
+    <column name="Id" />
+    <column name="Component" />
+    <column name="Namespace" />
+    <column name="Description" />
+  </messagegrid>
+</workspace>
